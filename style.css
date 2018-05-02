@@ -1,0 +1,43 @@
+.tile.viz {
+    overflow: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+}
+
+
+button {
+    background-color: #000000;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+
+
+@media (min-width: 576px ) {
+  .tile.viz img{
+        width:100%;
+  }
+  .row {
+      position: relative;
+  }
+
+  .bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+   .tile.viz img {
+        width:50%;
+        float:left;
+   }
+}
+
+
+
